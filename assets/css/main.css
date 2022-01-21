@@ -3416,9 +3416,9 @@ input, select, textarea {
 		border-bottom: 0;
 		display: inline-block;
 		margin: 0 0 1em 0;
-		overflow: hidden;
+		/* overflow: hidden; */
 		position: relative;
-		width: 4em;
+		/* width: 4em; */
 	}
 
 		#intro .logo:before {
@@ -3437,8 +3437,10 @@ input, select, textarea {
 
 		#intro .logo img {
 			display: block;
+			height: 200px;
+			width: 200px;
 			margin-left: -0.25em;
-			width: 4.5em;
+			/* width: 4.5em; */
 		}
 
 	#intro header h2 {
